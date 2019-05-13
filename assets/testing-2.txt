@@ -1,0 +1,22 @@
+You work for the CIA. You are given a software engineering assignment related to processing classified documents.
+
+You are given a task to build a web application to process classified documents (text format) and remove censored text.
+
+Definition:
+
+The application will remove given keywords and phrases from document text and insert something at the locations where text was removed.
+
+Input parameters:
+
+1. String of keywords and phrases: a string of censored keywords and phrases separated by spaces or commas. 
+Phrases will be enclosed in single or double quotes. Some examples:
+
+Hello world “Boston Red Sox”
+
+‘Pepperoni Pizza’, ‘Cheese Pizza’, beer
+
+2. Document text – the original document text that needs the provided keywords and phrases removed (masked out).
+
+Returns:
+
+Document text with indicated keywords and phrases removed and replaced with something.

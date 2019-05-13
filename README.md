@@ -1,5 +1,5 @@
 # Document Censor Utility
-
+<pre>
 **Issue below commands**
 C:\DocumentCensorUtility> cd front-end
 C:\DocumentCensorUtility\front-end> npm install
@@ -25,3 +25,4 @@ Use attached document testing2.txt located in the assets folder for Document fie
 Use below string for Keywords/Phrases field.
 "document text" world, 'keywords and phrases' Pizza, Classified “The CIA”
 Hit Upload and Mask button, masked output will be visible.
+</pre>
